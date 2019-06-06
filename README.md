@@ -1,1 +1,1 @@
-# Data_Structures_and_Algorithms
+This is my personal repository to keep track of all the Data Structures and Algorithms learned.

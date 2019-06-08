@@ -3,8 +3,8 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/Data-Structures/arrays" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Algorithms_Princeton/week_1_dynamic_connectivity/part_1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Data-Structures" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

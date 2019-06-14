@@ -2,6 +2,7 @@ package stacks.test;
 
 import linkedlist.test.Employee;
 import stacks.ArrayStack;
+import stacks.LinkedStack;
 
 public class Main {
 
@@ -30,5 +31,21 @@ public class Main {
         employeeArrayStack.printStack();
         System.out.println(employeeArrayStack.size());
 
+
+        LinkedStack<Employee> linkedStack = new LinkedStack<>();
+        linkedStack.push(johnDoe);
+        linkedStack.push(maryJane);
+        linkedStack.push(daveSmith);
+
+
+        linkedStack.printStack();
+
+        System.out.println(linkedStack.peek());
+        linkedStack.printStack();
+
+        System.out.println(linkedStack.pop());
+        System.out.println(linkedStack.pop());
+        System.out.println(linkedStack.pop());
+        linkedStack.printStack();
     }
 }
